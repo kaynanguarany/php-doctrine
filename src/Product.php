@@ -12,11 +12,18 @@ class Product
     /** @Column(type="string") **/
     protected $name;
 
-    public function __set ($name, $value){
-            $this->$name = $value;
-        }
+    public function getId()
+    {
+        return $this->id;
+    }
 
-    public function __get ($name){
-        return $this->$name;
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function setName($value)
+    {
+        $this->name = $value;
     }
 }
