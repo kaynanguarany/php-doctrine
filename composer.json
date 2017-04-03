@@ -1,0 +1,12 @@
+{
+    "name": "kayna/doctrine-sqlserver",
+    "require": {
+        "doctrine/orm": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "kayna guarany",
+            "email": "kayna@guarany.net"
+        }
+    ]
+}
