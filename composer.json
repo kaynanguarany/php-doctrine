@@ -1,12 +1,18 @@
 {
     "name": "kayna/doctrine-sqlserver",
     "require": {
-        "doctrine/orm": "^2.5"
+        "doctrine/orm": "^2.5",
+        "symfony/yaml": "^3.2"
     },
     "authors": [
         {
             "name": "kayna guarany",
             "email": "kayna@guarany.net"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Src\\" : "src/"
+        }
+    }
 }
